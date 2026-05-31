@@ -1,0 +1,20 @@
+# Dependency directories
+node_modules/
+
+# Local env files (contain database connections, JWT secrets, and AI API keys)
+.env
+
+# User uploads directory (contains candidate resumes)
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
